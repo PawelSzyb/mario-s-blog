@@ -4,7 +4,7 @@ import thunk from "redux-thunk";
 import { reduxFirestore, getFirebase } from "react-redux-firebase";
 import { reactReduxFirebase, getFirestore } from "redux-firestore";
 import { compose } from "redux";
-import fbConfig from "./config/fbConfig";
+import fbConfig from "./config/fb";
 
 const middleware = [
   thunk.withExtraArgument({
